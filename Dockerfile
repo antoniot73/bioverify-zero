@@ -23,4 +23,4 @@ USER appuser
 
 EXPOSE 7860
 
-CMD ["sh", "-c", "echo 'Starting BioVerify-Zero on port 7860...' && python -m uvicorn app.main:app --host 0.0.0.0 --port 7860"]
+CMD ["sh", "-c", "pwd && ls -la && ls -la app && echo 'Starting BioVerify-Zero...' && python -m uvicorn app.main:app --host 0.0.0.0 --port 7860 --log-level debug"]
