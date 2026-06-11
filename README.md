@@ -1,3 +1,14 @@
+---
+title: BioVerify Zero
+emoji: 🧬
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
+license: mit
+---
+
 # BioVerify-Zero Starter
 
 Prototipo web de verificación facial 1:1 con minimización de datos, procesamiento efímero y uso restringido.
